@@ -1,0 +1,6 @@
+To run this project
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py launch_queue_listener (to the Kafka consumer)
+python manage.py runserver
